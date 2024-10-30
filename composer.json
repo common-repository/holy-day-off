@@ -1,0 +1,17 @@
+{
+  "name": "tgmrp/mm-shabat-off",
+  "type": "project",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Ran Tayar",
+      "email": "tgmrp.dev@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "TopwpHolyDayOff\\": "./includes"
+    }
+  }
+}

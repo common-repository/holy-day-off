@@ -1,0 +1,86 @@
+h1.title {
+  font-size: 30px;
+  text-align: center;
+  /* margin-bottom: 30px; */
+  font-weight: 800;
+}
+
+.buyPro {
+  margin-top: 15px;
+  margin-bottom: 45px;
+  font-size: 50px;
+}
+
+.nav-tabs {
+  width: 100%;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-tabs > li {
+  margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+  margin-left: 2px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  text-decoration: none;
+}
+
+
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+}
+
+.tab-content > .tab-pane {
+  width: 100%;
+  display: none;
+}
+
+.tab-content > .tab-pane.active {
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 5px 4px -2px rgba(0,0,0,0.15);
+}
+
+
+.select2  {
+  min-width: 250px !important;
+}
+
+
+.status span {
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 4px -2px rgba(0,0,0,0.15);
+}
+
+.status .no {
+  background-color: green;
+}
+
+.status .yes {
+  background-color: red;
+}
+
+.footer {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 16px;
+  padding: 5px;
+}
